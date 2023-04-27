@@ -1,0 +1,54 @@
+.information-container h2 {
+  color: blueviolet;
+}
+
+.bars-navigation {
+  display: none;
+}
+.container-navigation {
+  display: flex;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 90vh;
+  padding: 0em 12%;
+
+  text-align: start;
+}
+.picture-home {
+  display: block;
+}
+
+.services-cards {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 4fr));
+  grid-gap: 15px;
+  justify-items: center;
+  align-items: center; */
+
+  flex-direction: row;
+}
+
+.features {
+  justify-content: space-around;
+
+  text-align: start;
+}
+
+.features-picture img {
+  display: block;
+
+  width: 100%;
+  height: 600px;
+}
+
+
+.trustworthy-sponsor {
+  display: flex;
+  justify-content: space-evenly;
+}

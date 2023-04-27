@@ -1,0 +1,8 @@
+.information-container h2 {
+  font-size: var(--font-xxxl);
+
+  color: aquamarine;
+}
+.home {
+  padding: 5rem;
+}
