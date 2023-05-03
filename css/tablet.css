@@ -6,3 +6,10 @@
 .home {
   padding: 5rem;
 }
+.padding-tb-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+  padding: 9rem 0 6rem 0;
+}

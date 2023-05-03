@@ -483,3 +483,47 @@ main {
 
   text-align: center;
 }
+
+.padding-tb-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 9rem 0 6rem 0;
+
+  text-align: center;
+}
+.padding-tb-contact h4 {
+  margin-bottom: 3rem;
+
+  color: var(--color-tertiary);
+  font-size: var(--font-m);
+}
+.padding-tb-contact p {
+  font-size: var(--font-m);
+}
+.padding-tb-contact ul {
+  font-size: var(--font-m);
+}
+.padding-tb-contact ul li {
+  margin-bottom: 2rem;
+
+  list-style: none;
+}
+.padding-tb-contact ul li a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.padding-tb-contact ul li a i {
+  margin: 0 1rem 0 0;
+
+  font-size: var(--font-xs);
+}
+
+.subscribe-container {
+  width: 300px;
+}
+.subscribe-container h4 {
+  
+  
+}
